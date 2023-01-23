@@ -38,24 +38,21 @@ Paso 1: Clona el repositorio de Github:
 ```
 git clone https://github.com/EstivenDufourt/Aplicacion-votos-votapp.git
 ```
+Paso 2: Abre la consola MySQL. Crea una base de datos con el nombre votaaap.
 
-Paso 2: Abre una shell de línea de comandos de tu sistema operativo. Navega hasta el directorio del proyecto.
+Paso 3: Ejecuta "votaaap.sql" (el script de creación de tabla) en la base de datos recién creada.
 
-Paso 3: Ejecuta el comando mvn clean package para empaquetar la aplicación.
+Paso 4: Conecta la aplicación en Spring Boot a la base de datos MySQL.
 
-Paso 4: Ejecuta el comando mvn spring-boot:run para arrancar la aplicación.
+Paso 5: Abre una shell de línea de comandos de tu sistema operativo. Navega hasta el directorio del proyecto.
 
-Paso 5: Abre un navegador web y navega a la dirección http://localhost:8081/votapp.
+Paso 6: Ejecuta el comando mvn clean package para empaquetar la aplicación.
 
-Paso 6: Abre la consola MySQL. Crea una base de datos con el nombre votaaap.
+Paso 7: Ejecuta el comando mvn spring-boot:run para arrancar la aplicación.
 
-Paso 8: Ejecuta el script (votaaap.sql) de creación de tablas para crear las tablas en la base de datos recién creada.
+Paso 8: Abre un navegador web y navega a la dirección http://localhost:8081/votapp.
 
-Paso 9: Conecta la aplicación Spring Boot a la base de datos MySQL.
+Paso 9: Inicia sesión con un usuario y contraseña o regístrate.
 
-Paso 10: Abre el navegador web y navega a la dirección http://localhost:8081/votapp.
-
-Paso 11: Inicia sesión con un usuario y contraseña o regístrate.
-
-Paso 12: Disfruta de la aplicación.
+Paso 10: Disfruta de la aplicación.
 
